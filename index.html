@@ -39,7 +39,8 @@
 </head>
 
 <body>
-  <div class="content">
+  <div class="container-content">
+    <div class="content">
     <div class="logo">
       <img src="images/logo.svg" alt="Huddle Logo">
     </div>
@@ -58,7 +59,7 @@
           <button class="conn" onclick="window.location.href = '#';">Register</button>
         </div>
 
-        <div class="social">
+        <div class="social">  
           <i class="fa-brands fa-facebook fa-2xl"></i>
           <i class="fa-brands fa-twitter fa-2xl"></i>
           <i class="fa-brands fa-instagram fa-2xl"></i>
@@ -76,6 +77,14 @@
       Coded by <a href="#">Hassane Abdel-Razak</a>.
     </p>
   </footer>
+  </div>
+
+  <script>
+      document.addEventListener("contextmenu", function (e) {
+        e.preventDefault();
+        alert("Le clic droit est désactivé !");
+      });
+    </script>
 </body>
 
 </html>
